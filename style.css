@@ -1,0 +1,197 @@
+body,.navbar,.nav-link{
+    font-family: 'Bebas Neue', cursive;
+    height: 100%;   
+    background: url(./images/nikon-d780-review-product-7-500x500.jpg)no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar,.nav-link{
+    color: white !important;
+    font-family: 'Bebas Neue', cursive;
+    font-size: x-large;
+    letter-spacing: 2.5px;
+} 
+nav a:hover { 
+    color: #f6ff00  !important;
+}     
+.name{
+    width: 350px;
+    margin-top: 500px;
+    text-align: right;
+}
+.name h1{
+    color:  #f6ff00;
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 25px;
+}
+.nam{
+    color: white;
+    font-size: 150px;
+    text-align: center;
+    margin-left: 350px;  
+    line-height: 0;  
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100% ;
+}
+h2{
+    font-family: 'Playfair Display',serif;
+    font-size: 200%;
+    font-weight: 700;
+    color: #f6ff00;
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    font-family: 'Raleway',serif;
+    color: #fff;
+    font-size: 140%;
+    line-height: 180%;
+    text-align: justify;
+    font-weight: 300;
+}
+img{
+    text-align: center;
+    max-width: 100%;
+} 
+ .content p{
+     font-size: 300%;
+     font-weight: 700;
+     color: #fff;
+     text-align: center;
+     padding: 2%; 
+     text-shadow: 0px 0px 250px #000;  
+ }
+ .inner{
+     max-width: 600px;
+     margin: auto;
+     font-size: 170%;
+     line-height: 1.6%;
+     padding: 10px;
+ }
+ .left-col{
+     width: 60%; 
+     float: left;
+     margin: 4% 0 4% 4%;
+ }
+ .sidebar{
+     width: 26%;
+     float: left;
+     margin: 4%;
+ }
+ .sidebar img{
+     height: 300px;
+     margin-top: 12%;
+ }
+ .one-third-port{
+     width: 29.333333%;
+     margin-left:  2%;
+     float: left;   
+ }
+ .one-third-port img:hover{
+     opacity: .6;
+ }
+ .contact p{
+     text-align: center;
+     letter-spacing: 5px;
+ }
+ .contact a{
+     color: #fff;
+ }
+ .clearfix{
+      clear: both;
+      height: 3%;
+ }
+ .parallax{
+     background: url("https://blog.hellosign.com/wp-content/uploads/2014/08/movetobayarea_blog.png") repeat fixed 100%;
+     background-size: cover;
+     opacity: .5;
+ }
+ .parallax-inner{
+     padding-top: 20%;
+ }
+ .social{
+     list-style-type: none;
+     text-align: center;
+ }
+ .social li{
+     display: inline;   
+ }
+ .social i {
+     font-size: 270%;
+     margin: 0.5%;
+     color: yellow;
+ }
+ .social i:hover{
+     color: #606060;
+ }
+ footer.second{
+     background-color: #2C2C2C;
+ }
+ footer.second p{
+     color: #fff;
+     text-align: center;
+     padding: 3%;
+ }
+ footer.second a{
+    color: #fff;
+    text-align: center;
+    padding: 3%;
+}
+footer.second a:hover{
+    color: yellow;
+}
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    color:  #ffffff;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+}
+.gotopbtn i:hover{
+    color: yellow;
+}
+ @media screen and (max-width: 760px){
+     .content h1{
+         font-size: 180% ;
+     }
+     .p{
+         font-size: 120%;
+     }
+     h2{
+         font-size: 160%;
+     }
+     .left col{
+         width: 90%;
+         margin: 0 0 3% 0;
+         padding: 0 2%;
+     }
+     .sidebar{
+         width: 96%;
+         margin: 0 auto;
+     }
+     img{
+         padding: 2%;
+     }
+     .one-third-port{
+         width: 96%;
+         margin: 0 auto;
+         padding: 0;
+     }
+     .break{
+         display: block;
+     }
+     .socail i{
+         font-size: 170%;
+     }
+ }
